@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: #ffffff;
+}
+
+.wrap{
+    width: 1250px;
+    margin: 0px auto;
+}
+/*Cabecera-*/
+#header{
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+#logo {
+    float: left;
+    width: 223px;
+    text-align: center;
+    letter-spacing: 1px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 300ms;
+    margin-top: 15px;
+}
+
+#logotipo h1{
+    font-size: 40px;
+    display: block;
+    float: right;
+    margin-top: 5px;
+    transition: all 300ms;
+    margin-right: 65px;
+}
+/*Menu*/
+#menu{
+    float: right;
+    height: 70px;
+    background: transparent;
+}
+
+#menu ul li{
+    font-size: 24px;
+    display: inline-block;
+    margin: 0px 20px 0px 20px;
+    letter-spacing: 1px;
+    line-height: 70px;
+}
+
+#menu ul li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    transition: all 200ms;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#menu ul li a:hover{
+    color: #98c1d9;
+    transform: scale(1.2, 1.2);
+}
+
+.grid-item{
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+ }
+
+ /*Caja principal*/
+ #div_main{
+    width: 85%;
+    height: 820px;
+    background: #e2f5fc;
+    margin: 0px auto;
+    overflow: hidden;
+    box-shadow: 3px 3px 0px #e5e5e5; 
+}
+
+#div_main h1{
+    font-size: 50px;
+    padding-top: 3px;
+    font-family: Arial;
+    margin-bottom: 15px;
+}
+
+/*Article*/
+.article h3{
+    font-size: 30px;
+    margin-bottom: 5px;
+    font-family: Arial;
+}
+
+.article p{
+    font-size: 20px;
+    color: black;
+    font-family: Arial;
+    margin-bottom: 15px;
+}
+
+/*Boton generar formato*/
+#button_g{
+    width: 25%;
+    background: #00afb9;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+}
+
+#button_g:hover{
+    transition: all 0.5ms;
+    background: #2a9d8f;
+    color: white;
+}
+
+/*Parrafo*/
+.red_letter{
+    color: #ef233c;
+    font-weight: bold;
+ }
+
+ .black_letter{
+    color: black;
+    font-weight: bold;
+ }
+
+/*Referencias*/
+#references{
+    margin-top: 10px;
+}
+
+#reference_p{
+    font-size: 15px;
+    margin-top: 5px;
+}
