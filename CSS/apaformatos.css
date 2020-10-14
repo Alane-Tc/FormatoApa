@@ -128,7 +128,7 @@ body{
     width: 30%;
     background: #2a9d8f;
     border: none;
-    padding: 6px;
+    padding: 8px;
     color: white;
     font-size: 15px;
     cursor: pointer;
@@ -138,4 +138,19 @@ body{
 #button_book:hover{
     background: #06d6a0;
     color: white;
+}
+
+#Menj_random{
+    width: 70%;
+    height: 177px;
+    display: block;
+    /*background: #ffba08;*/
+    margin: auto;
+    border-radius: 8px;
+}
+
+#parrafo{
+    margin-top: 50px;
+    font-size: 25px;
+    padding-top: 55px;
 }
