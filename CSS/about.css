@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: #ffffff;
+}
+
+.wrap{
+    width: 1250px;
+    margin: 0px auto;
+}
+/*Cabecera-*/
+#header{
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+#logo {
+    float: left;
+    width: 223px;
+    text-align: center;
+    letter-spacing: 1px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 300ms;
+    margin-top: 15px;
+}
+
+#logotipo h1{
+    font-size: 40px;
+    display: block;
+    float: right;
+    margin-top: 5px;
+    transition: all 300ms;
+    margin-right: 65px;
+}
+/*Menu*/
+#menu{
+    float: right;
+    height: 70px;
+    background: transparent;
+}
+
+#menu ul li{
+    font-size: 24px;
+    display: inline-block;
+    margin: 0px 20px 0px 20px;
+    letter-spacing: 1px;
+    line-height: 70px;
+}
+
+#menu ul li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    transition: all 200ms;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#menu ul li a:hover{
+    color: #98c1d9;
+    transform: scale(1.2, 1.2);
+}
+
+/*Div main*/
+.grid-item{
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+ }
+
+ /*Caja principal*/
+ #div_main{
+    width: 100%;
+    height: 140px;
+    background: #ff5a5f;
+    margin: 200px auto;
+    overflow: hidden;
+    box-shadow: 3px 3px 0px #e5e5e5; 
+}
+
+#error{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+#error_p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px; 
+}
+
