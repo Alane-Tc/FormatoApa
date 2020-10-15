@@ -103,14 +103,12 @@ body{
     font-size: 40px;
     padding-top: 3px;
     font-family: Arial;
-    margin-bottom: 15px;  
 }
 
 #div_main h1{
     font-size: 40px;
     padding-top: 3px;
     font-family: Arial;
-    margin-bottom: 15px;
 }
 
 .form_title{
@@ -158,4 +156,11 @@ body{
     margin-top: 50px;
     font-size: 25px;
     padding-top: 55px;
+}
+
+/*Espacio*/
+.page-header {
+    padding-bottom: 5px;
+    margin: 5px 0 15px;
+    border-bottom: 1px solid #919191;
 }
