@@ -87,7 +87,7 @@ body{
 }
 
 #div_main h1{
-    font-size: 50px;
+    font-size: 40px;
     padding-top: 3px;
     font-family: Arial;
     margin-bottom: 15px;
@@ -104,7 +104,6 @@ body{
     font-size: 20px;
     color: black;
     font-family: Arial;
-    margin-bottom: 15px;
 }
 
 /*Boton generar formato*/
@@ -144,4 +143,11 @@ body{
 #reference_p{
     font-size: 15px;
     margin-top: 5px;
+}
+
+/*Espacio*/
+.page-header {
+    padding-bottom: 5px;
+    margin: 5px 0 15px;
+    border-bottom: 1px solid #919191;
 }
