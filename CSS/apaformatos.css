@@ -92,7 +92,7 @@ body{
 /*Enciclopedia*/
 #div_main_enci{
     width: 85%;
-    height: 1280px;
+    height: auto;
     background: #e2f5fc;
     margin: 0px auto;
     overflow: hidden;

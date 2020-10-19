@@ -79,7 +79,7 @@ body{
  /*Caja principal*/
  #div_main{
     width: 85%;
-    height: 820px;
+    height: auto;
     background: #e2f5fc;
     margin: 0px auto;
     overflow: hidden;
