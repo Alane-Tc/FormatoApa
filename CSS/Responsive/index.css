@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: #ffffff;
+}
+
+@media (max-width: 575.98px) { 
+    /*body{background: red;}*/
+
+    #div_main {
+        width: 90%;
+        height: auto;
+        background: #e2f5fc;
+        margin: 0px auto;
+        overflow: hidden;
+        box-shadow: 3px 3px 0px #e5e5e5;
+    }
+    #div_main h1 {
+        font-size: 30px;
+    }
+
+    .article h3 {
+        font-size: 25px;
+    }
+
+    .article p {
+        font-size: 15px;
+        color: black;
+        font-family: Arial;
+    }
+    
+    #references h3{
+        font-size: 30px;
+    }
+
+    #reference_p {
+        font-size: 13px;
+    }
+
+    #button_g {
+        width: 80%;
+        background: #00afb9;
+        color: white;
+        padding: 10px;
+        font-size: 15px;
+        cursor: pointer;
+        border-radius: 8px;
+        border: none;
+    }
+    
+ }
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+   /*body{background: green;}*/
+
+   #button_g {
+    width: 55%;
+    background: #00afb9;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    }
+
+    #div_main h1 {
+        font-size: 30px;
+    }
+
+    .article h3 {
+        font-size: 25px;
+    }
+
+    .article p {
+        font-size: 15px;
+        color: black;
+        font-family: Arial;
+    }
+
+    #references h3{
+        font-size: 30px;
+    }
+
+    #reference_p {
+        font-size: 13px;
+    }
+
+}
+
+ @media (min-width: 768px) and (max-width: 991.98px) { 
+   /* body{background: yellow;}*/
+    
+    #button_g {
+        width: 50%;
+        background: #00afb9;
+        color: white;
+        padding: 10px;
+        font-size: 15px;
+        cursor: pointer;
+        border-radius: 8px;
+        border: none;
+    }
+  
+    
+ }
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    /*body{background: blue;}*/
+    
+    #button_g {
+        width: 50%;
+        background: #00afb9;
+        color: white;
+        padding: 10px;
+        font-size: 15px;
+        cursor: pointer;
+        border-radius: 8px;
+        border: none;
+    }
+     
+ }
+
+@media (min-width: 1200px) { 
+    /*body{background: blueviolet;}*/
+
+   
+ }
+
+ 
