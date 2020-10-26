@@ -125,3 +125,8 @@ body{
   .grid-item a:hover{
     color: white;
   }
+
+  #title{
+      text-align: center;
+      margin-top: 15px;
+  }
