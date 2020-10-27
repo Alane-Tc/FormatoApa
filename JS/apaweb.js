@@ -1,4 +1,4 @@
-window.addEventListener("load", function () {
+window.addEventListener("load", function() {
     var va1 = document.querySelector("#value1");
     var va2 = document.querySelector("#value2");
     var va3 = document.querySelector("#value3");
@@ -24,7 +24,7 @@ window.addEventListener("load", function () {
     }
 
 
-    button.addEventListener("click", function () {
+    button.addEventListener("click", function() {
         Apa();
     });
 
