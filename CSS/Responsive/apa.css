@@ -4,18 +4,20 @@
     box-sizing: border-box;
 }
 
-body{
-    background: #ffffff;
-}
+
 
 @media (max-width: 575.98px) { 
    /* body{background: red;}*/
-
+   .grid-item {
+    padding: 20px; 
+    font-size: 20px;
+    text-align: center;
+}
     .grid-container {
         display: initial;
-        grid-gap: 50px;
+       /* grid-gap: 50px;
         grid-template-columns: auto auto auto;
-        padding: 100px;
+        padding: 100px;*/
     }
    
     
@@ -28,23 +30,21 @@ body{
 
     .grid-container {
         display: grid;
-        grid-gap: 50px;
+        grid-gap: 5px;
         grid-template-columns: auto auto auto;
         padding: 1px;
     }
 
     .grid-item {
-        background-color: #81b29a;
-        border: 1px solid rgba(0, 0, 0, 0.8);
         padding: 5px;
-        font-size: 30px;
+        font-size: 20px;
         text-align: center;
     }
 
     .grid-item a {
         text-decoration: none;
         color: black;
-        font-size: 15px;
+        font-size: 13px;
     }
   
 
@@ -52,19 +52,23 @@ body{
 
  @media (min-width: 768px) and (max-width: 991.98px) { 
    /*body{background: yellow;}*/
-
-    .grid-item a {
-        text-decoration: none;
-        color: black;
+    .grid-item {
+        padding: 5px;
         font-size: 20px;
+        text-align: center;
         }
-        .grid-container {
-            display: grid;
-            grid-gap: 50px;
-            grid-template-columns: auto auto auto;
-            padding: 15px;
-        }
-    
+        .grid-item a {
+            text-decoration: none;
+            color: black;
+            font-size: 15px;
+            }
+            .grid-container {
+                display: grid;
+                grid-gap: 20px;
+                grid-template-columns: auto auto auto;
+                padding: 15px;
+            }
+        
     
  }
 
@@ -73,9 +77,14 @@ body{
     
     .grid-container {
         display: grid;
-        grid-gap: 50px;
+        grid-gap: 30px;
         grid-template-columns: auto auto auto;
         padding: 35px;
+    }
+
+    .grid-item {
+        font-size: 25px;
+        text-align: center;
     }
      
  }
